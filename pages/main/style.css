@@ -421,7 +421,7 @@ h1{
     top: 28%;
     left: -40%;
     transform: translateX(-50%);
-    content: url(/assets/images/Arrow\ 2.png);
+    content: url(../../assets/images/Arrow\ 2.png);
   }
   .work_list_icon {
     background-color: #fff;
