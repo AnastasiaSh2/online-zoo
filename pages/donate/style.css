@@ -70,6 +70,14 @@ h1{
     line-height: 140%;
     margin-left: 280px;
   }
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fe9013;
+  }
   h3 {
     font-family: "Roboto";
     font-style: normal;
@@ -203,6 +211,7 @@ h1{
         #eaf7fe 127.9%,
         #eaf7fe 149.54%
       );
+      z-index: -1;
   }
   .main_small_font {
     font-style: normal;
@@ -263,27 +272,29 @@ h1{
     margin-left: 180px;
     margin-top: 60px;
   }
-  .text2{
-    margin-top: 50px;
-    margin-bottom: 10px;
+  .text1{
+    text-align: center;
   }
-  .padding_40 {
-    padding-top: 40px;
+  .text2{
+    margin-top: 48px;
+    margin-bottom: 10px;
   }
   .donation_text{
     font-style: normal;
+    margin-top: 20px;
     font-weight: 400;
     font-size: 24px;
     line-height: 120%;
     color: #333b41;
+    text-align: center;
   }
   #progress_bar {
     width: 976px;
-    height: 40px;
+    height: 50px;
   }
   #progress_bar_dark {
     position: absolute;
-    top: 562px;
+    top: 540px;
     width: 976px;
     height: 27px;
     background: #404950;
@@ -326,13 +337,13 @@ h1{
     margin-left: 66px;
   }
   .width_span3 {
-    margin-left: 60px;
-  }
-  .width_span4 {
     margin-left: 50px;
   }
+  .width_span4 {
+    margin-left: 45px;
+  }
   .width_span5 {
-    margin-left: 15px;
+    margin-left: 8px;
   }
   .amount_count{
     font-style: normal;
@@ -352,15 +363,14 @@ h1{
       background-color: #fe9013;
     }
   }
+  .centered_text{
+    padding-top: 40px;
+    text-align: center;
+  }
   .text_centered_text{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    text-align: center;
-  }
-  .intro_friend{
-    position: relative;
-    left: 360px;
   }
   label {
     color: orange;
@@ -407,18 +417,42 @@ h1{
     padding-left: 10px;
   }
   #amount_block {
+    margin-top: 50px;
+    margin-bottom: 77px;
+    margin-left: auto;
+    margin-right: auto;
     width: 268px;
-    height: 54px;
-    margin: auto auto;
+    height: 104px;
   }
   #sign_dollar {
     position: absolute;
-    right: 445px;
-    top: 694px;
-    font-family: "Roboto";
+    right: 460px;
+    top: 682px;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
+    color: #929699;
+  }
+  .centered_text3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 40px;
+    text-align: center;
+    color: #333B41;
+  }
+  .margin_top25 {
+    margin-top: 25px;
+  }
+  .width_span2 {
+    margin-left: 30px;
+  }
+  .intro_friend{
+    position: absolute;
+    bottom: 50px;
+    margin-left: 340px;
+    margin-bottom: 100px;
   }
    /*Main end*/
 
@@ -428,6 +462,12 @@ h1{
     bottom: 60px;
   }
   .footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1860px;
+    width: 1380px;
+    height: 510px;
     background-color: #000;
     color: #fff;
   }
@@ -516,5 +556,11 @@ h1{
     content: "";
     position: absolute;
     left: 800px;
+  }
+  .subscribe-text_text{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
   }
   /*Footer end*/
