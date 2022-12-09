@@ -13,31 +13,29 @@
 <body>
     <!--Header start-->
 <header class="header">
-    <div class="container">
-    <div class="header_inner">
-        <div class="logo">
-    <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
-        <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
-    </a>
-        </div>
-<!--/logo-->
-<nav class="nav">
-    <ul class="nav_info>">
-    <li href="https://anastasiash2.github.io/online-zoo/pages/main/index.html" class="nav_link">About</li>
-    <li href="#" class="nav_link">Map</li>
-    <li href="#" class="nav_link">Zoos</li>
-    <li href="#" class="nav_link active">Donate</li>
-    <li href="#" class="nav_link">Contact us</li>
-<h1 class="link">
-<a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header_link">
-Designed by &copy;</a>
-</h1>
-</ul>
-</nav>
+  <div class="container">
+    <div class="logo">
+      <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
+          <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online"></a>
+          </div>
+    <div class="menu">
+      <nav class="menu_body">
+        <ul>
+          <li><a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">About</a></li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Zoos</a></li>
+          <li> <a class="active-menu-item" href="#">Donate</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li>
+            <a  href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by <span>&copy;</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger_icon">
+        <span></span>
+      </div>
     </div>
-    <!--/header_inner-->
-    </div>
-    <!--/container-->
+  </div>
 </header>
 <!--Header end-->
 
@@ -49,188 +47,131 @@ Designed by &copy;</a>
 </section>
 <!--Background end-->
 
-<!--Main start-->
-<section id="main">
-    <div class="container">
-    <div class="main_text">
-      <h3>
-        THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!
-      </h3>
-      <p class="main_small_font">
-        Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.
-      </p>
-      <p class="main_orange_font">
-        Donation Information
+<!--Donate start-->
+<section class ="donate">
+  <div class="wrapper">
+    <div class="info">
+      <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+      <p>
+        Even though the Zoo has been able to reopen, we are at a greatly
+        reduced capacity with educational programs and public and private
+        events cancelled or postponed for additional months. We need you now
+        more than ever to help ensure that we overcome these challenges. We
+        have been actively raising funds in the community, and we are
+        grateful for the generosity. But much more support is still needed,
+        and we need your help! Please consider a gift today – no matter what
+        size – to help us sustain fsvsfv
       </p>
     </div>
-<!--main_text-->
-
-<div id="donation">
-    <div id="donation_inside">
-      <h2 class="centered_text">Pick and feed a friend</h2>
-      <p class="donation_text">
-        We know the animals bring you joy, and in these extraordinary times, we’re glad.
+    <h3>Donation information</h3>
+    <div class="pick">
+      <h2>Pick and feed a friend</h2>
+      <p>
+        We know the animals bring you joy, and in these extraordinary times,
+        we’re glad.
       </p>
-      <div class="donation_block">
-        <div class="div1">
-          <p class="text_four">4</p>
-          <p class="text_centered_text text1">Panda diet for the day.</p>
+      <div class="petDiet">
+        <div>
+          <span>4</span>
+          <span>Panda diet for the day.</span>
         </div>
-        <div class="div2">
-          <img src="../../assets/images/x_icon.png">
-        </div>
-        <div class="div3">
-          <img src="../../assets/images/animals-widget.png">
+        <div>
+          <img alt="panda" src="../../assets/images/animals-widget.png" alt="panda">
         </div>
       </div>
-      <p class="text_centered_text text2">
-        Amount
-      </p>
-      <div id="progress_bar">
-        <div id="progress_bar_dark">
-          <div id="progress_bar_line">
-            <input type="radio" name="radio" class="radio_positions" value="5000"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="2000"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="1000"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="500"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="250"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="100"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="50"/>
-            <span class="width_span"></span>
-            <input type="radio" name="radio" class="radio_positions" value="25"/>
-          </div>
-          <!--progress_bar_line-->
+      <form action="" class="amount">
+        <p>Amount</p>
+        <fieldset class="chose_amount">
+          <label data-amount="$5000"
+            ><input name="amount" type="radio" value="5000" /> <span></span ></label>
+          <label data-amount="$2000" ><input name="amount" type="radio" value="2000" /><span></span ></label>
+          <label data-amount="$1000"><input name="amount" type="radio" value="1000" /><span></span></label>
+          <label data-amount="$500"><input name="amount" type="radio" value="500" /><span></span></label>
+          <label data-amount="$250"><input name="amount" type="radio" value="250" /><span></span></label>
+          <label data-amount="$100" class="active_amount" ><input name="amount" type="radio" value="100" checked ><span></span></label>
+          <label data-amount="$50"><input name="amount" type="radio" value="50"><span></span></label>
+          <label data-amount="$25"><input name="amount" type="radio" value="25"><span></span></label>
+        </fieldset>
+        <div>
+          <label class="input_price_label">
+            <input  class="input_price" type="number" placeholder="Another amount"  max="9999" value="100">
+          </label>
         </div>
-        <!--progress_bar_dark-->
-      </div>
-<!--progress_bar-->
-      <div>
-        <span class="width_span5"></span>
-        <span class="amount_count">$5000</span>
-        <span class="width_span4"></span>
-        <span class="amount_count">$2000</span>
-        <span class="width_span4"></span>
-        <span class="amount_count">$1000</span>
-        <span class="width_span4"></span>
-        <span class="amount_count">$500</span>
-        <span class="width_span3"></span>
-        <span class="amount_count">$250</span>
-        <span class="width_span3"></span>
-        <span class="amount_count">$100</span>
-        <span class="width_span3"></span>
-        <span class="amount_count">$50</span>
-        <span class="width_span"></span>
-        <span class="width_span5"></span>
-        <span class="amount_count">$25</span>
-      </div>
-
-      <div id="amount_block">
-        <form>
-          <input type="text" id="amount_input" maxlength="4" class="body_font margin_top50" name="amount_input" placeholder="Another amount"><br>
-        </form>
-        <span id="sign_dollar">$</span>
-        <div class="margin_top25"></div>
-        <span class="width_span2"></span>
-        <input type="radio" name="radio2" class="radio_orange" value="Monthly"/>
-        <label class="body_font black">Monthly</label>
-        <span class="width_span3"></span>
-        <input type="radio" name="radio2" class="radio_orange" value="Once" checked="true"/>
-        <label class="body_font black">Once</label>
-      </div>
-
-      <div class="intro_friend">
-        <a href="#" class="btn">FEED A FRIEND NOW</a>
+        <div class="period">
+          <input id="month" type="radio" name="period" value="monthly">
+          <label for="month"></label>
+          <span>Monthly</span>
+          <input type="radio" id="once" checked name="period" value="once">
+          <label for="once"></label>
+          <span>Once</span>
+        </div>
+        <button class="button1 button_color_default"> FEED A FRIEND NOW </button>
+        <p>Share with your friends on social networks</p>
+      </form>
     </div>
-    </div>
-    <p class="centered_text3">Share with your friends on social networks</p>
-</div>
-  <!--donation-->
-</div>
-<!--container-->
+  </div>
 </section>
-  <!--Main end-->
+  <!--Donate end-->
 
 <!--Footer start-->
 <footer class="footer">
-    <div class="container">
-      <div class="footer_inner">
-        <div class="footer_logo">
-            <div class="nav_logo">
-                <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
-                    <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
-                </a>
-                    </div>
-                    <!--logo-->
-                    <div class="intro_footer">
-                        <a href="../donate/donate.html" class="btn next">DONATE FOR VOLUNTEERS</a>
-                    </div>
-                    <!--intro_footer-->
-                </div>
-                <!--footer_logo-->
-                <div class="footer_submit">
-                    <h3>Subscribe to our news</h3>
-                    <form action="#" class="subscribe">
-                     <input type="email" required placeholder="Enter your email" class="email">
-                    <button class="submit" type="submit">Submit</button>
-                    </form>
-                </div>
-            <!--Submit-->
-        </div>
-        <!--footer_inner-->
-        <div class="footer_social">
-          <ul class="social">
-            <li class="icon">
-              <a href="https://www.facebook.com/" target="_blank" class="social">
-                <img src="../../assets/icons/Group 1.png" alt="facebook"> Facebook </a>
-            </li>
-
-            <li class="icon">
-              <a href="https://www.twitter.com/" target="_blank" class="social">
-                <img src="../../assets/icons/Group 2.png" alt="twitter">
-                Twitter</a>
-            </li>
-
-            <li class="icon">
-              <a href="https://www.instagram.com/" target="_blank" class="social">
-                <img src="../../assets/icons/Group 3.png" alt="instagram">
-                Instagram</a>
-            </li>
-
-            <li class="icon">
-              <a href="https://www.youtube.com/" target="_blank" class="social">
-                <img src="../../assets/icons/Group 4.png" alt="youtube">
-                YouTube</a>
-            </li>
-          </ul>
-        </div>
-          <!--social-->
-        <div class="nav_footer">
-            <nav class="nav">
-                <ul class="nav_info>">
-                <li href="https://anastasiash2.github.io/online-zoo/pages/main/index.html" class="nav_link">About</li>
-                <li href="#" class="nav_link">Map</li>
-                <li href="#" class="nav_link">Zoos</li>
-                <li href="../donate/index.html" class="nav_link active">Donate</li>
-                <li href="#" class="nav_link">Contact us</li>
-            </ul>
-            </nav>
-        </div>
-        <!--nav_footer-->
-          <div class="subscribe-text">
-            <a href="https://rs.school" target='_blank' class="link_footer" aria-label="Designed by"></a>
-            <p class="subscribe-text_text">Designed by Alisa Samborskaya</p>
-            <p class="subscribe-text_text">©RSSchool & ©Yem Digital 2021</p>
-          </div>
-          <!--text_footer-->
+  <div class="container">
+    <div class="footer_logo">
+      <div class="logo">
+        <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
+            <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
+        </a>
+            </div>
+      <form class="subscribe" action="#">
+        <h4>Subscribe to our news</h4>
+        <input
+          class="email"
+          required
+          type="email"
+          placeholder="Enter your email">
+        <button type="submit" class="button3 button3_color_default">
+          Submit
+        </button>
+      </form>
     </div>
-    <!--consider-->
-  </footer>
+    <div class="footer_but">
+      <a href="../donate/donate.html" class="button2 button_color_default">
+        DONATE FOR VOLUNTEERS
+      </a>
+    </div>
+    <div class="footer_soc">
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"><span>Facebook</span></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/"><span>Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"><span>Instagram</span></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"><span>YouTube</span></a>
+          </li>
+        </ul>
+      </div>
+      <nav class="footer_menu">
+        <ul>
+          <li><a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">About</a></li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Zoos</a></li>
+          <li href="../donate/index.html">Donate</li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="copy">
+        <a href="#">Designed by Alisa Samborskaya</a>
+        <a href="https://rs.school">©RSSchool & ©Yem Digital 2021</a>
+      </div>
+    </div>
+  </div>
+</footer>
 <!--Footer end-->
 </body>
 

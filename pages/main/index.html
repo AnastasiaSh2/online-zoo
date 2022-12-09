@@ -22,18 +22,24 @@
         </div>
 <!--/logo-->
 <nav class="nav">
-    <ul class="nav_info>">
+    <ul class="nav_info">
     <li href="https://anastasiash2.github.io/online-zoo/pages/main/index.html" class="nav_link active">About</li>
     <li href="#" class="nav_link">Map</li>
     <li href="#" class="nav_link">Zoos</li>
     <li href="../donate/donate.html" class="nav_link">Donate</li>
     <li href="#" class="nav_link">Contact us</li>
-<h1 class="link">
-<a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header_link">
-Designed by &copy;</a>
-</h1>
+    <li class="nav__li design nav__design">
+        <p class="design__title">
+            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                target="_blank" class="design__title">Designed by &copy;</a></p>
+    </li>
 </ul>
 </nav>
+
+<div class="link">
+<a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header_link">
+Designed by &copy;</a>
+</div>
     </div>
     <!--/header_inner-->
     </div>
@@ -41,9 +47,56 @@ Designed by &copy;</a>
 </header>
 <!--Header end-->
 
+<!--Header mobil start-->
+<header class="mobile__header">
+    <div class="container mobile__container">
+        <ul class="mobile__nav">
+            <li class="mobile__nav-logo"><a href="../main/index.html">
+                <div class="logo_header-mobile">
+                    <h1 class="header__title-mobile">PetStory <span>online</span></h1>
+                    <img src="../../assets/icons/bamboo-stick.png" alt="" class="bamboo-stick">
+                </div>
+                    </a>
+            </li>
+
+            <li class="burger">
+                <div class="burger__container">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal__window hidden">
+        <div class="logo__modal__window">
+            PetStory online<img src="../../assets/images/Logo_Footer.png">
+        </div>
+
+        <ul class="nav__modal__window">
+            <li href="https://anastasiash2.github.io/online-zoo/pages/main/index.html" class="li__nav__modal">About</li>
+            <li href="#" class="li__nav__modal">Map</li>
+            <li href="#" class="li__nav__modal">Zoos</li>
+             <li href="../donate/donate.html" class="li__nav__modal">Donate</li>
+            <li href="#" class="nav_link">Contact us</li>
+            <li class="li__nav__modal"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                target="_blank" class="design__title">Designed by &copy;</a></p></li>
+        </ul>
+
+        <div class="close__modal"><img src="../../assets/icons/x_icon.png" alt="x icon"></div>
+    </div>
+</header>
+<!--Header mobil end-->
+
+<main class="main">
 <!--Background start-->
 <section class="background" style="background-image: url(../../assets/images/Giant\ Panda.png);">
     <div class="container">
+        <div class="watch__circle"></div>
+                <div class="watch__title">
+                    <p>Watch your <span class="watch__title_color">favorite</span> animal online</p>
+                </div>
         <div class="intro_background">
         <a href="#" class="btn">WATCH ONLINE</a>
         </div>
@@ -60,8 +113,10 @@ Designed by &copy;</a>
         <div class="backstage_foto" style="background-image: url(../../assets/images/bamboo-cap.png);">
         </div>
         <!--backstage_foto-->
+        <a href="#" class="btn btn_mobile">WATCH ONLINE</a>
+
         <div class="backstage_block">
-            <h2>The Backstage of the Wilderness World.</h2>
+            <h2 class="text_main">The Backstage of the Wilderness World.</h2>
             <p class="text">The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
             <p class="text_accent">How it works </p>
             <p class="text">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
@@ -221,7 +276,6 @@ Designed by &copy;</a>
 
 <!--Testimonials start-->
 <section class="testimonials">
-    <div class="testimonials_bag">
     <div class="container">
         <h3>Testimonials</h3>
         <ul class="testimonials_block">
@@ -313,38 +367,26 @@ Designed by &copy;</a>
         </div>
     </div>
     <!--container-->
-</div>
-<!--testimonials_bag-->
 </section>
 <!--Testimonials end-->
+</main>
 
 <!--Footer start-->
 <footer class="footer">
-    <div class="container">
+    <div class="container footer_container">
+
       <div class="footer_inner">
-        <div class="footer_logo">
-            <div class="nav_logo">
-                <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
-                    <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
-                </a>
-                    </div>
-                    <!--logo-->
-                    <div class="intro_footer">
-                        <a href="../donate/donate.html" class="btn next">DONATE FOR VOLUNTEERS</a>
-                    </div>
-                    <!--intro_footer-->
+        <div class="nav_logo">
+            <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
+                <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
+            </a>
                 </div>
-                <!--footer_logo-->
-                <div class="footer_submit">
-                    <h3>Subscribe to our news</h3>
-                    <form action="#" class="subscribe">
-                     <input type="email" required placeholder="Enter your email" class="email">
-                    <button class="submit" type="submit">Submit</button>
-                    </form>
-                </div>
-            <!--Submit-->
+                <!--logo-->
+        <div class="intro_footer">
+            <a href="../donate/donate.html" class="btn next">DONATE FOR VOLUNTEERS</a>
         </div>
-        <!--footer_inner-->
+        <!--intro_footer-->
+
         <div class="footer_social">
           <ul class="social">
             <li class="icon">
@@ -372,6 +414,15 @@ Designed by &copy;</a>
           </ul>
         </div>
           <!--social-->
+
+          <div class="nav_logo">
+            <a href="https://anastasiash2.github.io/online-zoo/pages/main/index.html">
+                <img src="../../assets/images/Logo_Footer.png" alt="Pestory Online">
+            </a>
+                </div>
+                <!--logo-->
+        </div>
+        <!--footer_inner-->
         <div class="nav_footer">
             <nav class="nav">
                 <ul class="nav_info>">
@@ -383,16 +434,28 @@ Designed by &copy;</a>
             </ul>
             </nav>
         </div>
+
+        <div class="footer_right">
+          <!--footer_logo-->
+          <div class="footer_submit">
+            <h3 class="footer_header">Subscribe to our news</h3>
+            <form action="#" class="subscribe">
+             <input type="email" required placeholder="Enter your email" class="email">
+            <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    <!--Submit-->
         <!--nav_footer-->
           <div class="subscribe-text">
-            <a href="https://rs.school" target='_blank' class="link_footer" aria-label="Designed by"></a>
-            <p>Designed by Alisa Samborskaya</p>
+            <a href="https://rs.school" class="link_footer" target="_blank">Designed by Alisa Samborskaya</a>
             <p>©RSSchool & ©Yem Digital 2021</p>
           </div>
           <!--text_footer-->
+        </div>
+        <!--footer_right-->
     </div>
     <!--consider-->
   </footer>
-<!--Footer end-->
+<!-- Footer end -->
     </body>
 </html>
