@@ -563,33 +563,33 @@ header .container {
     width: 26px;
     height: 26px;
     border-radius: 13px;
-    background: url(../../assets/icons/Group 1.png) 50% no-repeat,
+    background: url(../../assets/icons/Group\ 1.png) 50% no-repeat,
       rgba(196, 196, 196, 0.5);
     margin: 0 12px -7px 0;
   }
   .social li:nth-of-type(2) a:before {
-    background: url(../../assets/icons/Group 2.png) 50% no-repeat,
+    background: url(../../assets/icons/Group\ 2.png) 50% no-repeat,
       rgba(196, 196, 196, 0.5);
   }
   .social li:nth-of-type(3) a:before {
-    background: url(../../assets/icons/Group 3.png) 50% no-repeat,
+    background: url(../../assets/icons/Group\ 3.png) 50% no-repeat,
       rgba(196, 196, 196, 0.5);
   }
   .social li:nth-of-type(4) a:before {
-    background: url(../../assets/icons/Group 4.png) 50% no-repeat,
+    background: url(../../assets/icons/Group\ 4.png) 50% no-repeat,
       rgba(196, 196, 196, 0.5);
   }
   .social a:active:before {
-    background: url(../../assets/icons/Group 1.png) 50% no-repeat, #4b9200;
+    background: url(../../assets/icons/Group\ 1.png) 50% no-repeat, #4b9200;
   }
   .social li:nth-of-type(2) a:active:before {
-    background: url(../../assets/icons/Group 2.png) 50% no-repeat, #4b9200;
+    background: url(../../assets/icons/Group\ 2.png) 50% no-repeat, #4b9200;
   }
   .social li:nth-of-type(3) a:active:before {
-    background: url(../../assets/icons/Group 3.png) 50% no-repeat, #4b9200;
+    background: url(../../assets/icons/Group\ 3.png) 50% no-repeat, #4b9200;
   }
   .social li:nth-of-type(4) a:active:before {
-    background: url(../../assets/icons/Group 4.png) 50% no-repeat, #4b9200;
+    background: url(../../assets/icons/Group\ 4.png) 50% no-repeat, #4b9200;
   }
   .footer_menu {
     position: relative;
@@ -619,117 +619,9 @@ header .container {
     margin-top: 8px;
     margin-bottom: -1px;
   }
-
-/* .intro_footer{
-    position: relative;
-    bottom: 60px;
-  }
-  .footer {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 1860px;
-    width: 1380px;
-    height: 510px;
-    background-color: #000;
-    color: #fff;
-  }
-  .footer.container {
-    padding-top: 40px;
-    padding-bottom: 48px;
-  }
-  .footer_inner {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer_logo {
-    display: flex;
-    flex-direction: column;
-  }
-  .nav_logo {
-    margin-top: 41px;
-    margin-bottom: 166px;
-  }
-  .nav_footer{
-    position: relative;
-    right: 150px;
-  }
-  .footer h3{
-    padding: 0;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
-    color: #FFFFFF;
-  }
-  .footer_submit {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  .subscribe-text {
-    position: relative;
-    bottom: 40px;
-    right: 100px;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 0;
-    font-weight: 300;
-    text-align: right;
-    color: #ababab;
-  }
-  .email {
-    box-sizing: border-box;
-    padding: 9px;
-    border: 1px solid #fe9013;
-    border-radius: 4px;
-    outline: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #fff;
-    background-color: inherit;
-  }
-  .footer_social {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 44px;
-  }
-  .footer_submit{
-    content: "";
-    position: absolute;
-    left: 800px;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: space-between;
-    padding-left: 32px
-  }
-  .submit {
-    width: 129px;
-    height: 42px;
-    background: #F1F3F2;
-    border-radius: 5px;
-    color: #4B9200;
-    border: 1px solid #4B9200;
-  }
-  .footer_submit{
-    content: "";
-    position: absolute;
-    left: 800px;
-  }
-  .subscribe-text_text{
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 130%;
-    color: #FFFFFF;
-  } */
   /*Footer end*/
 
   @media screen and (max-width: 1000px) {
-    /* donate section */
     .donate {
       padding-bottom: 47px;
       padding-top: 31px;
@@ -783,12 +675,52 @@ header .container {
       margin-top: 10px;
     }
   }
+  @media (max-width: 855px) {
+    .footer .container {
+      position: relative;
+      padding-top: 12px;
+    }
+    .footer_logo {
+      margin-bottom: 32px;
+    }
+    .footer_but {
+      margin-bottom: 67px;
+    }
+    .subscribe {
+      display: none;
+    }
+    .social {
+      position: absolute;
+      top: 12px;
+      right: 20px;
+    }
+    .social li {
+      margin-bottom: 21px;
+    }
+    .social span {
+      display: none;
+    }
+    .social a:before {
+      margin-right: 0;
+    }
+    .footer_menu {
+      flex: 1;
+      left: 0;
+      margin-right: 73px;
+    }
+    .footer_menu ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer_menu li {
+      margin-right: 0;
+    }
+  }
   @media (max-width: 640px) {
-    .wrapper {
+    .container {
       padding-left: 20px;
       padding-right: 20px;
     }
-    /* header section */
     header {
       position: fixed;
       left: 0;
@@ -925,7 +857,6 @@ header .container {
     .menu_body li {
       margin-bottom: 15px;
     }
-    /* background section */
     .background {
       height: 336px;
       margin-top: 33px;
@@ -933,7 +864,6 @@ header .container {
     .background:before {
       background-position-x: -125px;
     }
-    /* donate section */
     .donate {
       padding-bottom: 45px;
     }
@@ -967,4 +897,3 @@ header .container {
       margin-right: 0;
     }
   }
-  
