@@ -1001,6 +1001,8 @@ header .container {
     height: 35px;
     top: -20px;
     left: 100%;
+      background: url(../../assets/icons/arrow-green.png) 50% no-repeat;
+    }
   }
 
   /* footer*/
@@ -1246,8 +1248,11 @@ header .container {
     margin-bottom: 40px;
   }
   .step:nth-of-type(-n + 2) .step_img:after {
-    top: -20px;
+    top: -50px;
     left: 79.5%;
+    width: 40px;
+    height: 90px;
+    background: url(../../assets/icons/arrow-green.png) 50% no-repeat;
   }
   /* testimonials */
   .testimonials {
@@ -1291,7 +1296,7 @@ header .container {
     width: 117px;
     height: 180px;
     bottom: -56px;
-    background: url(../../assets/images/testimonials_bg_640.jpg) 50% no-repeat;
+    background: 50% no-repeat;
   }
   .modal {
     position: fixed;
