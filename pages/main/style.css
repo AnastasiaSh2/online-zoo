@@ -1045,7 +1045,7 @@ header .container {
   .footer_menu li {
     margin-right: 0;
   }
-}
+
 
 @media (max-width: 640px) {
   .container {
@@ -1546,5 +1546,4 @@ header .container {
     height: 78px;
     bottom: -21px;
   }
-}
 }
