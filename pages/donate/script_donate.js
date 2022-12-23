@@ -106,7 +106,7 @@ inputPrice.addEventListener('input', (e) => {
     }
   });
 });
-
+a
 
 document.querySelector('.amount').onsubmit = (e) => {
   e.preventDefault();
